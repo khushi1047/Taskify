@@ -31,15 +31,17 @@ Users can register, login, and manage tasks (add, edit, delete, mark completed/p
    git clone https://github.com/your-username/task-manager.git
 
 2. Navigate to the project directory:
+   ```bash
    cd task-manager
 
-3. Configure MySQL databases in application.properties for user-service and task-service.
+4. Configure MySQL databases in application.properties for user-service and task-service.
 
-4. Build the project with Maven:
+5. Build the project with Maven:
+   ```bash
    mvn clean install
 
-5. Run the services:
-   # Run user-service
+7. Run the services:
+# Run user-service
 cd user-service
 mvn spring-boot:run
 
