@@ -1,0 +1,6 @@
+create database user_service;
+create database task_service;
+use task_service;
+use user_service;
+select * from users;
+select * from task;
